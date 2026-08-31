@@ -80,61 +80,125 @@
 //20.Create a var variable named price with the value 500.
 //var price = "500";
 
-Reassign price from 500 to 1000.
-What will be the output?
-var x = 50;
-x = 100;
-console.log(x);
-Can a var variable be reassigned?
-Can a var variable be redeclared?
-Write an example of var redeclaration.
-let
-Create a let variable named age with the value 25.
-What will be the output?
-let age = 20;
-age = 30;
-console.log(age);
-Can a let variable be reassigned?
-Can a let variable be redeclared?
-Find the error:
-let name = "John";
-let name = "David";
-Create a let variable called city and assign "Chennai".
-Change the value of city to "Salem".
-What will be the output?
-let x = 10;
-x = 50;
-console.log(x);
-Write a let variable called salary with the value 25000.
-Reassign salary to 30000.
-const
-Create a const variable called pi with the value 3.14.
-Can a const variable be reassigned?
-Can a const variable be redeclared?
-What is wrong with this code?
-const age;
-age = 25;
-What happens here?
-const price = 500;
-price = 1000;
-Create a const variable called country with the value "India".
-What will be the output?
-const x = 100;
-console.log(x);
-Which keyword should you use if the value should not be reassigned?
-What is the difference between let and const?
-What is the difference between var and const?
-Printing & Console
-Write JavaScript code to print Hello World using console.log().
-Write JavaScript code to print the number 500 using console.log().
-What is the purpose of console.warn()?
-What is the purpose of console.error()?
-What is the purpose of each?
-alert()
-prompt()
-confirm()
-document.writeln()
-console.log()
+//21.Reassign price from 500 to 1000.
+//var price = 500;
+//price = 1000;
+
+//22.What will be the output?
+//var x = 50;
+//x = 100;
+//console.log(x);
+//Answer - 100.
+
+//23.Can a var variable be reassigned?
+//Yes
+
+//24.Can a var variable be redeclared?
+//Yes
+
+//25.Write an example of var redeclaration.
+//var name = "Ajithkumar";
+//var name = "Nagarajan";
+//console.log(name);
+//output : Nagarajan
+
+//let
+//26.Create a let variable named age with the value 25.
+// let age = 31;
+
+//27.What will be the output?
+//let age = 20;
+//age = 30;
+//console.log(age);
+// Answer - Output : 30
+
+//28.Can a let variable be reassigned?
+// Yes.
+
+//29.Can a let variable be redeclared?
+//No
+
+//30.Find the error:
+//let name = "John";
+//let name = "David";
+//Answer - Error: name cannot be redeclared using let in the same scope.
+
+//31.Create a let variable called city and assign "Chennai".
+//let city = "chennai";
+
+//32.Change the value of city to "Salem".
+//let city = "chennai";
+//let city = "salem";
+
+//33.What will be the output?
+//let x = 10;
+//x = 50;
+//console.log(x);
+//Answer - output : 50.
+
+//34.Write a let variable called salary with the value 25000.
+//let salary = 25000;
+
+//35.Reassign salary to 30000.
+//let salary = 25000;
+//salary = 30000;
+
+//const
+//36.Create a const variable called pi with the value 3.14.
+//const pi = 3.14;
+
+//37.Can a const variable be reassigned?
+//NO
+
+//38.Can a const variable be redeclared?
+//No
+
+//39.What is wrong with this code?
+//const age;
+//age = 25;
+//Answer - Const must be initialized when it is declared.
+
+//40.What happens here?
+//const price = 500;
+//price = 1000;
+//Answer - It gives an error because a const variable cannot be reassigned.
+
+//41.Create a const variable called country with the value "India".
+//const country = "India";
+
+//42.What will be the output?
+//const x = 100;
+//console.log(x);
+//Answer : Output - 100.
+
+//43.Which keyword should you use if the value should not be reassigned?
+//const
+
+//44.What is the difference between let and const?
+//let can be reassigned,while const cannot be reassigned.
+
+//45.What is the difference between var and const?
+//var can be reassigned and redeclared, while const cannot be reassigned or redeclared.
+
+//Printing & Console
+//46.Write JavaScript code to print Hello World using console.log().
+//console.log("Hello World");
+
+//47.Write JavaScript code to print the number 500 using console.log().
+//console.log(500);
+
+//48.What is the purpose of console.warn()?
+//It displays a warning message.
+
+//49.What is the purpose of console.error()?
+//It displays an error message.
+
+//50.What is the purpose of each?
+//alert() - Displays a popup message.
+//prompt() - Asks the user to enter a value.
+//confirm() - Asks the user to confirm OK or Cancel.
+//document.writeln() - Writes content directly into the webpage.
+//console.log() - Prints information in the browser console.
   
   // Task 1: Create variables for student name, age, and mark
 let studentName = "Ajith";
